@@ -1,0 +1,32 @@
+{
+    "auth": "zef:rawleyfowler",
+	"authors": [
+		"Rawley Fowler"
+	],
+	"build-depends": [
+	],
+	"depends": [
+	],
+	"description": "A simple sub routine to check if a user agent is a bot or not.",
+	"license": "Artistic 2.0",
+	"name": "Is-Bot",
+	"raku": "6",
+	"provides": {
+        "Is::Bot": "/lib/Is/Bot.rakumod"
+	},
+	"resources": [
+	],
+	"source-url": "https://github.com/rawleyfowler/raku-Is-Bot.git",
+	"support": {
+		"source": "https://github.com/rawleyfowler/raku-Is-Bot.git"
+	},
+	"tags": [
+        "Bot",
+        "UserAgent",
+        "Security"
+	],
+	"test-depends": [
+		"Test"
+	],
+	"version": "0.0.1"
+}
