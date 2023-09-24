@@ -1,0 +1,12 @@
+Is-Bot
+
+A simple User Agent tester to see if a User Agent is most likely a bot or not.
+
+    use Is::Bot;
+
+    is-bot('perl'); # --> True
+    is-bot('axios'); # --> True
+    is-bot('Mozilla/5.0 (X11; Linux x86_64; rv:109.0)'); # --> False
+
+This project is Free Software. It is available under the Artistic 2.0 license,
+the same license Raku is licensed under.
